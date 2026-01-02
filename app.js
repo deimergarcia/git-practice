@@ -4,6 +4,20 @@
 const APP_NAME = "Git Practice";
 const VERSION = "1.0.0";
 
-console.log(`Bienvenido a ${APP_NAME}`);
-console.log(`Versión: ${VERSION}`);
-console.log("Aprendiendo Git paso a paso");
+// Función para mostrar información
+function mostrarInfo() {
+    console.log("================================");
+    console.log(`  ${APP_NAME} v${VERSION}`);
+    console.log("================================");
+    console.log("Aprendiendo Git paso a paso");
+    console.log(`Fecha: ${new Date().toLocaleDateString()}`);
+}
+
+// Función para saludar
+function saludar(nombre) {
+    return `¡Hola, ${nombre}! Bienvenido al curso.`;
+}
+
+// Ejecutar
+mostrarInfo();
+console.log(saludar("Deimer"));
