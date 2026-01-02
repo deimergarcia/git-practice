@@ -1,0 +1,11 @@
+{
+  "name": "git-practice",
+  "version": "1.0.0",
+  "description": "Proyecto para aprender Git",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Deimer",
+  "license": "MIT"
+}
