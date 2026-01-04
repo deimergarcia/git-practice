@@ -24,4 +24,4 @@ npm start
 
 ## Autor
 
-Deimer - Desarrollador Backend en formación
+Deimer - Desarrollador Backend en formación.
