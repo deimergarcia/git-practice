@@ -6,7 +6,7 @@ const VERSION = "1.0.0";
 
 // Función para mostrar información
 function mostrarInfo() {
-    console.log("=================================");
+    console.log("================================");
     console.log(`  ${APP_NAME} v${VERSION}`);
     console.log("================================");
     console.log("Aprendiendo Git paso a paso");
@@ -20,4 +20,4 @@ function saludar(nombre) {
 
 // Ejecutar
 mostrarInfo();
-console.log(saludar("Deimer"));
+console.log(saludar("Deimer Garcia"));
